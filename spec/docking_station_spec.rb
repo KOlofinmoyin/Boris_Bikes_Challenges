@@ -1,7 +1,8 @@
 require 'docking_station.rb'
 
 describe DockingStation do
-  it 'variable docking_station creates a new DockingStation object' do
-
+  it 'responds to release_bike' do
+    expect(subject).to respond_to :release_bike
+  end
   end
 end
