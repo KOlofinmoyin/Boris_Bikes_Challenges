@@ -18,14 +18,26 @@ describe DockingStation do
 
   describe "#dock" do
     bike = Bike.new
-    it'docks a bike.' do
+    it 'docks a bike.' do
       expect(subject.dock(bike)).to eq bike
     end
+
+    it 'each docking station accepts 20 bikes' do
+      20.times{ subject.dock(Bike.new) }
+      expect { subject.dock(Bike.new) }.to raise_error 'docking station at capacity.'
+    end
+
+    it 'raises an exception when a user attempts to dock a bike at a DockingStation that already contains a bike.' do
+    bike1 = Bike.new
+    bike2 = Bike.new
+    subject.dock(bike1)
+    expect { subject.dock(bike2) }.to raise_error "docking station at capacity."
   end
+end
 
   describe "#docked_bike" do
-    it "shows bike that has been docked." do
-        expect(subject.docked_bike).to eq @bike
+    it 'shows bike that has been docked.' do
+        expect(subject.bike_capacity).to eq @bike_capacity
     end
   end
 
