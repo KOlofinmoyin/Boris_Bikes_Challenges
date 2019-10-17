@@ -19,5 +19,13 @@ DEFAULT_CAPACITY = 20
     @docked_bike << bike
   end
 
+private
+def full?
+  @bikes.count >= 20
+end
+
+def empty?
+  @bikes.empty?
+end
 
 end
