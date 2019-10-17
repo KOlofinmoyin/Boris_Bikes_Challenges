@@ -8,11 +8,15 @@ Collaborating paired-parters:
 2. Ben.
 3. Shubs
 
-Markdown | Objects	Messages
---- | --- | --- | ---
+Markdown | Objects Messages | [blank]
+--- | --- | --- | 
 *User* | `renders` | **nicely**
 Customer | find_by_surname | 3
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 	
 	
 
