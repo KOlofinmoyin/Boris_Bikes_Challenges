@@ -9,7 +9,7 @@ Collaborating paired-parters:
 3. Shubs
 
 Markdown | Objects	Messages
---- | --- | ---
+--- | --- | --- | ---
 *User* | `renders` | **nicely**
 Customer | find_by_surname | 3
 
