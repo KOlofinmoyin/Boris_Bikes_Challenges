@@ -8,6 +8,14 @@ Collaborating paired-parters:
 2. Ben.
 3. Shubs
 
+Markdown | Objects	Messages
+--- | --- | ---
+*User* | `renders` | **nicely**
+Customer | find_by_surname | 3
+
+	
+	
+
 User Stories:
 ============
  #### Quiz 1:
