@@ -47,11 +47,10 @@ I'd like to see if a bike is working
  
  #### Quiz 4:
  ```built on stories in previous quiz``` 
- 
  #### Quiz 5:
- 
+  ```built on stories in previous quiz``` 
  #### Quiz 6:
- 
+  ```built on stories in previous quiz``` 
  #### Quiz 7:
  ```As a system maintainer,```
  ```As a person,```
@@ -63,11 +62,11 @@ So that I can use a good bike,
 I'd like to see if a bike is working
 
  #### Quiz 8:
- 
+  ```built on stories in previous quiz``` 
  #### Quiz 9:
- 
+  ```built on stories in previous quiz``` 
  #### Quiz 10:
- 
+  ```built on stories in previous quiz``` 
  #### Quiz 11:
  As a member of the public
 So I can return bikes I've hired
