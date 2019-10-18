@@ -1,17 +1,29 @@
-# Boris Bikes Challenges
+# Boris Bikes Challenges 🚲
 
-This is a program that emulates all the docking stations, bikes, and infrastructure of a city cycle network. Given we are constantly switching pairs and who's project to work on, this was a work in progress stage (the starting stage) or creating a docking station system for Boris Bikes. It was more of a learning experience with Ruby & testing than a finished product. 🚲
+A first Makers students' project, simulating the program mechanisms of the London Transport - Bike rental system (aka Boris Bikes) and its infrastructure.
 
-Collaborating paired-parters:
+Collaborating paired-parters/skills learnt:
 ============================
 1. Alex Clifford
 2. Ben.
 3. Shubs
 
-Markdown | Objects Messages | [blank]
---- | --- | --- | 
-*User* | `renders` | **nicely**
-Customer | find_by_surname | 3	
+Tools/ skills learnt :
+============================
+1. TDD using Rspec
+2. github for collaboration/ pairing
+3. Test driving a small program
+4. OO principles: (SRP, Encapsulation, Abstraction)
+
+
+**Objects**           | Messages 
+---                   | --- |  
+*User*                | `renders` 
+Customer              | hire_bike
+Bikes                 | return bike
+                      | dock_bike
+                      | view_docked_bike
+Maintainer of System  | dock_bike
 
 User Stories:
 ============
@@ -95,3 +107,14 @@ I'd like docking stations not to accept more bikes than their capacity.
  ```As a system maintainer,```
 ```So that I can plan the distribution of bikes,```
 ```I want a docking station to have a default capacity of 20 bikes.```
+
+ #### Quiz 15:
+  ```built on stories in previous quiz``` 
+ 
+ #### Quiz 16:
+  ```built on stories in previous quiz``` 
+  
+ #### Quiz 17: 
+`As a system maintainer,`
+`So that busy areas can be served more effectively,`
+`I want to be able to specify a larger capacity when necessary.`
